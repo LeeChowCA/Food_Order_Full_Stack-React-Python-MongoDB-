@@ -1,4 +1,5 @@
 import logoImg from '../assets/logo.jpg';
+import Button from './UI/Button';
 
 const Header = () => <header id="main-header">
     <div id="title">
@@ -6,7 +7,7 @@ const Header = () => <header id="main-header">
         <h1>GHOST Japanese Restaurant</h1>
     </div>
     <nav>
-        <button>Cart (0)</button>
+        <Button textOnly>Cart (0)</Button>
     </nav>
 </header>
 
